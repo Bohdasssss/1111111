@@ -4,8 +4,6 @@ from handlers import dp
 from loader import bot
 
 
-async def on_startup(dp):
-    print( 'Bot has been started')
 
 
 
