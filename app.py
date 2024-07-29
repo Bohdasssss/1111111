@@ -5,9 +5,7 @@ from loader import bot
 
 
 async def on_startup(dp):
-    print(
-        'Bot has been started'
-    )
+    print( 'Bot has been started')
 
 
 
