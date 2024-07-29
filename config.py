@@ -1,0 +1,4 @@
+BOT_TOKEN = '7392323595:AAEB8MRPFrRwg9CDKUCwQn23yrFpRs-qye4'#токен бота
+ADMIN_ID = [1475174313,401429125] #айді адмінів
+
+
