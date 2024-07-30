@@ -75,6 +75,7 @@ async def delete_chanel(call:types.CallbackQuery):
 async def dl_chenel(message:types.Message,state:FSMContext):
     try:
         db.delete_chanel(name=message.text)
+        await state.finish()
         await message.answer('Канал видалений')
     except Exception as ex:
         await message.answer(ex)
